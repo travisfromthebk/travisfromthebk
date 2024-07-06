@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" href="css.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Davis' Art Place</title>
+</head>
+
+<body>
+<div id="all">
+	
+<div id="top">
+	<h3>Travis' Art Place</h3>
+</div><!--top-->
+
+<div id="nav">
+	<h4>Navigation</h4>
+	<a href="index.html">Home Page</a><br>
+	<a href="staff.html">Staff</a><br>
+	<a href="products.html">Products</a><br>
+	<a href="registration.html">Registration</a><br>
+	<a href="order.html">Order Form</a><br>
+	<a href="javascript_reg.html">javaScript Registration</a><br>
+	<a href="javascript_misc.html">javaScript Misc</a><br>
+	<a href="jquery.html">jQuery</a><br>
+	
+	<br>
+	<a href="https://www.facebook.com"><img class="smallest" src="images/fb.png"></a>
+</div><!--nav-->
+
+<div id="main">
+	<h1>Misc javaScript</h1>
+	
+	<h2>1. Get Today's Date and Time</h2>
+	<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+	Click me to display Date and Time.</button>
+	<p id="demo"></p><br>
+	<button type="button" onMouseOver="document.getElementById('demo1').innerHTML = Date()">
+	Hover over me to display Date and Time.</button>
+	<p id="demo1"></p><br>
+	<br>
+	
+	<h2>2. Changing Text</h2>
+	<p id="demo">JavaScript can change HTML content.</p>
+	<button type="button" onclick='document.getElementById("demo2").innerHTML = 
+		"Hello JavaScript!"'>Click Me!</button>
+	<p id="demo2"></p><br>
+	
+	<h2>3. Changing an Image</h2>
+	<p>JavaScript can change HTML attributes.</p>
+	<p>In this case JavaScript changes the src (source) attribute of an image.</p>
+	<img id="myImage" src="images/pic_bulboff.gif" style="width:100px">
+	<button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">
+		Turn on the light</button>
+	<button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">
+		Turn off the light</button>
+	
+	<h2>4. JavaScript popup boxes</h2>
+	<!------------------------------------------------------------------------------------>
+	<p>Click the button to display an alert box.</p>
+	<button onclick="myFunction()">Try to get an alert box</button>
+	<script>
+	function myFunction(){
+		alert("I am an alert box!");
+	}
+	</script>
+	<!------------------------------------------------------------------------------------>
+	<p>Click the button to display a confirm box.</p>
+	<button onclick="myFunction1()">Try to get a confirm box</button>
+	<p id="demo3"></p>
+	<script>
+	function myFunction1() {
+		var txt;
+		var r = confirm("Press a button!");
+		if (r == true) {
+			txt = "You pressed OK!";
+		} else {
+			txt = "You pressed Cancel!";
+		}
+    document.getElementById("demo3").innerHTML = txt;
+	}
+	</script>
+	<!------------------------------------------------------------------------------------>
+	<p>Click the button to demonstrate a prompt box.</p>
+	<button onclick="myFunction2()">Try to get a prompt</button>
+	<p id="demo4"></p>
+	<script>
+	function myFunction2(){
+		var txt;
+		var person = prompt("Please enter your name: ");
+		if(person != null){
+			document.getElementById("demo").innerHTML = "Hello " + person + "! How are you today?";
+		}
+	}
+	</script>
+
+</div><!--main-->
+
+<div id="foot">
+	<p>Copyright Travis Davis &copy;2017 <br>
+	<a href="#top">Back to top</a></p>
+</div><!--foot-->
+
+</div><!--all-->
+
+</body>
+
+</html>
