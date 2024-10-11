@@ -1,11 +1,11 @@
 ## Hi there 👋
 
-- 🔭 I’m currently working on nothing. But, I hope to start working on some projects and work on earning certifications. 
-- 🌱 I’m currently learning nothing as of now. 
-- 👯 I’m looking to collaborate on more projects and gain some experience. 
+- 🔭 I’m currently pursuing professional collaboration on real-world projects to build on my skills.
+- 🌱 I’m currently learning Technical Support Fundamentals through Coursera.
+- 👯 I’m looking to collaborate on more projects and find mentorship.
 - 🤔 I’m looking for help with strengthening my HTML, CSS and Javascript skills. 
-- 💬 Ask me about what projects I am working on!
-- 😄 Pronouns: he/him
+- 💬 Ask me about what projects I am working on or any concepts I am studying!
+- 😄 Pronouns: he/him, born in Brooklyn, NY.
 - ⚡ Fun fact: I love making music playlists full of 80s and 90s R&B. 
 
 <!--
